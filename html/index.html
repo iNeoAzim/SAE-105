@@ -1,10 +1,108 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAE TEST WEBSITE</title>
+    <title>Your Tourist Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Welcome to Your Tourist Destination</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#tips">Travel Tips</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Explore the Beauty of Our Destination</h2>
+            <p>Discover amazing places, exciting activities, and unforgettable experiences.</p>
+            <img src="banner.jpg" alt="Beautiful Destination">
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to helping you discover the best travel experiences.</p>
+        </section>
+
+        <section id="destinations">
+            <h2>Popular Destinations</h2>
+            <ul>
+                <li><a href="#destination1">Destination 1</a></li>
+                <li><a href="#destination2">Destination 2</a></li>
+                <li><a href="#destination3">Destination 3</a></li>
+            </ul>
+        </section>
+
+        <section id="activities">
+            <h2>Activities</h2>
+            <p>Explore various activities you can enjoy during your visit.</p>
+        </section>
+
+        <section id="tips">
+            <h2>Travel Tips</h2>
+            <p>Helpful tips for making the most of your trip.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Check out our photo gallery!</p>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Read our latest travel articles and stories.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <section id="reviews">
+        <h2>User Reviews</h2>
+        <div class="review">
+            <h3>John Doe</h3>
+            <p>"Had an amazing time exploring the city! The attractions were breathtaking and the locals were friendly."</p>
+        </div>
+        <div class="review">
+            <h3>Jane Smith</h3>
+            <p>"A wonderful experience! The guided tours were informative and fun. Highly recommend!"</p>
+        </div>
+        <form id="review-form">
+            <h3>Leave a Review</h3>
+            <label for="reviewer-name">Name:</label>
+            <input type="text" id="reviewer-name" name="reviewer-name" required>
+            
+            <label for="review-message">Review:</label>
+            <textarea id="review-message" name="review-message" required></textarea>
+            
+            <button type="submit">Submit Review</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Your Tourist Website. All rights reserved.</p>
+    </footer>
 </body>
 </html>
