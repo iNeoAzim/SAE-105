@@ -93,73 +93,71 @@ form button:hover {
     margin-top: 20px;
 }
 
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     padding: 2rem;
 }
 
-.sliderw{
+.sliderw {
     position: relative;
     max-width: 48rem;
     margin: 0 auto;
 }
 
-.slider{
+.slider {
     display: flex;
     aspect-ratio: 16/9;
     overflow-x: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    box-shadow: 0 1.5rem 3rem -0.75rem
-    hsla(0, 0%, 0%, 0.25);
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25); 
     border-radius: 0.5rem;
 }
 
-.slider img{
+.slider img {
     flex: 1 0 100%;
     scroll-snap-align: start;
     object-fit: cover;
 }
 
-.slider-nav{
+.slider-nav {
     display: flex;
     column-gap: 1rem;
     position: absolute;
     bottom: 1.25rem;
     left: 50%;
-    transform: translateX
-    (-50%) ;
+    transform: translateX(-50%); 
     z-index: 1;
 }
 
-.slider-nav a{
+.slider-nav a {
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 50%;
     background-color: #fff;
     opacity: 0.75;
-    transition: opacity ease
-    0.25;
+    transition: opacity ease 0.25s; 
 }
 
-.slider-nav a:hover{
+.slider-nav a:hover {
     opacity: 1;
 }
 
-.japon-container { 
+.japon-container {
     margin-top: 2.5rem;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.japon{
+.japon {
     display: flex;
     justify-content: center;
     align-items: center;
