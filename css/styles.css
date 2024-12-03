@@ -151,7 +151,17 @@ form button:hover {
     opacity: 1;
 }
 
-.japon2 { 
-    width : 5% 
-    height : 5%
+.japon-container { 
+    margin-top: 2.5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.japon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
 }
