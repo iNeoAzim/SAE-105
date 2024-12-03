@@ -163,3 +163,9 @@ form button:hover {
     align-items: center;
     gap: 12px;
 }
+
+.monaco{
+    width: 50%;
+    height: 300px;
+    border-radius:30px
+}
