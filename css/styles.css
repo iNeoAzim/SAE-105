@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color:rgb(234, 243, 253);
 }
 
 header {
@@ -25,6 +26,9 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+}
+nav ul li a:hover{
+    color: cornflowerblue;
 }
 
 main {
@@ -191,4 +195,15 @@ form button:hover {
     font-size: 150%;
     font-weight: bold;
     text-align: right;
+}
+
+a{
+    text-decoration: solid;
+}
+a:hover{
+    color:darkblue;
+    font-weight: bold;
+}
+a:visited{
+    color: darkblue;
 }
