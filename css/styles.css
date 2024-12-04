@@ -184,20 +184,63 @@ form button:hover {
 .Monaco_titles{
     text-align:center;
     color:crimson;
-    font-size: 200%;
+    font-size: 2rem;
     font-weight:bold;
     padding: 20px;
 }
 
 .monaco_div{
     display:flex;
-    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.monaco_img{
+    width: 45%;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .monaco_span{
-    font-size: 150%;
+    font-size: 1.5rem;
     font-weight: bold;
-    text-align: right;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.monaco_prix-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.monaco_prix{
+    padding: 0;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.monaco_prix li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.monaco_link{
+    padding: 10px 15px;
+    background-color:lightcoral;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.monaco_link:hover{
+    background-color: darkblue;
+    color: white;
 }
 
 a{
