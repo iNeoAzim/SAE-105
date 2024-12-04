@@ -164,12 +164,25 @@ form button:hover {
     gap: 12px;
 }
 
-.monaco{
-    width: 50%;
+.monaco_img{
+    width: 45%;
     height: 300px;
-    border-radius:30px
+    border-radius:30px;
 }
 
 #LOGO1{
     height: 100px;
 }
+
+.Monaco_titles{
+    text-align:center;
+    color:crimson;
+    font-size: 200%;
+    font-weight:bold;
+}
+
+.monaco_div{
+    display:flex;
+    justify-content: left;
+}
+
