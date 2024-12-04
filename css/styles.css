@@ -30,6 +30,9 @@ nav ul li a {
 nav ul li a:hover{
     color: cornflowerblue;
 }
+nav ul li a:visited{
+    color:white;
+}
 
 main {
     padding: 20px;
