@@ -217,6 +217,7 @@ a:visited{
     width:30%;
     margin: 1%;
     vertical-align: top;
+    position: relative;
 }
 
 .redirection{
@@ -228,15 +229,19 @@ a:visited{
     transform-origin: top;
     margin: 0 auto;
     border-radius: 10px;
+    z-index: 1;
 }
 .redirection:hover{
     transform: scale(1.1);
     border-radius: 25px;
+    z-index: 2;
 }
 
 .image-title{
     margin-top: 10px;
     font-size: 1.2rem;
-    color: blue;
+    color: black;
     font-weight: bold;
+    position: relative;
+    z-index: 3;
 }
