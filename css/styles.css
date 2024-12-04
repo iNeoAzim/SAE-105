@@ -179,6 +179,7 @@ form button:hover {
     color:crimson;
     font-size: 200%;
     font-weight:bold;
+    padding: 20px;
 }
 
 .monaco_div{
@@ -186,3 +187,8 @@ form button:hover {
     justify-content: left;
 }
 
+.monaco_span{
+    font-size: 150%;
+    font-weight: bold;
+    text-align: right;
+}
