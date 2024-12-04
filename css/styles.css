@@ -210,3 +210,7 @@ a:hover{
 a:visited{
     color: darkblue;
 }
+
+.redirection{
+    width:150px;
+}
