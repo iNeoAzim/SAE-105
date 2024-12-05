@@ -282,3 +282,11 @@ a:visited{
     position: relative;
     z-index: 3;
 }
+
+.slider-container{
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    height: 350px;
+    overflow: hidden;
+}
