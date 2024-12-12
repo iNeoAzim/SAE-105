@@ -252,3 +252,17 @@ form button:hover {
 #back-to-top:hover {
     background: #555;
 }
+
+.moldova_imgmain{
+    width: 50%;
+    height: 50%;
+    margin-left: 500px;
+    margin-bottom: 250px;}
+
+.Moldova_titles{
+    text-align:center;
+    color:rgb(20, 50, 220);
+    font-size: 2rem;
+    font-weight:bold;
+    padding: 20px;
+}
