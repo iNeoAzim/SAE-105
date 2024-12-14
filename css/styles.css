@@ -256,7 +256,7 @@ form button:hover {
 .moldova_imgmain{
     width: 50%;
     height: 50%;
-    margin-left: 500px;
+    margin-left: 380px;
     margin-bottom: 250px;}
 
 .Moldova_titles{
@@ -265,4 +265,35 @@ form button:hover {
     font-size: 2rem;
     font-weight:bold;
     padding: 20px;
+}
+.moldova_prix-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.moldova_prix{
+    padding: 0;
+    font-size: 1rem;
+    text-align: left;
+    margin: 30px;
+}
+
+.moldova_prix li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+.moldova_link{
+    padding: 10px 15px;
+    background-color:rgb(55, 151, 168);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.moldova_link:hover{
+    background-color: darkblue;
+    color: white;
 }
