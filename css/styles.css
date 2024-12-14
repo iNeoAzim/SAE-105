@@ -362,13 +362,6 @@ a:focus {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.moldova_prix{
-    padding: 0;
-    font-size: 1rem;
-    text-align: left;
-    margin: 30px;
-}
-
 .moldova_prix li{
     list-style-type: none;
     margin-bottom: 5px;
