@@ -289,6 +289,9 @@ a:focus {
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-style: italic;
 }
 
 .monaco_link:hover ,.Japon_link:hover{
