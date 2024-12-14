@@ -391,3 +391,22 @@ a:focus {
     background-color: darkblue;
     color: white;
 }
+
+.cuisine-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.cuisine-item {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cuisine-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
