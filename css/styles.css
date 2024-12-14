@@ -342,16 +342,18 @@ a:focus {
     transform: scale(1.1);
 }
 
-.monaco_img , .Japon_img{
+.monaco_img , .Japon_img , .Moldova_img {
     width: 70%;
     border-radius: 15px;
     margin-bottom: 10px;
 }
 
+/* ----------------------------------------- MOLDOVA CSS ----------------------------------------- */
 .moldova_imgmain{
     width: 50%;
     height: 50%;
     margin-bottom: 250px;}
+    
 
 .Moldova_titles{
     text-align:center;
@@ -410,3 +412,16 @@ a:focus {
     height: auto;
     border-radius: 10px;
 }
+
+.moldova_titles{
+  text-align: center;
+    font-size: 7rem;
+    color: rgb(255, 255, 255);
+    animation: fadeIn 2s ease-in-out;
+    border-radius: 10;
+    border-color: rgba(2, 58, 163, 0.479);
+    border-bottom: 10px solid rgba(30, 71, 147, 0.701);
+    margin-bottom: 50px;
+}
+
+/* ----------------------------------------- MOLDOVA CSS ----------------------------------------- */
