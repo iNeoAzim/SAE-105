@@ -145,7 +145,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #FFD700;
+    background-color: cornflowerblue;
 }
 
 #reviews {
@@ -200,7 +200,7 @@ footer p {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #FFD700;
+    background-color: cornflowerblue;
     color: #fff;
     padding: 10px 15px;
     font-size: 18px;
@@ -278,25 +278,6 @@ body.scrolled .back-to-top {
     z-index: 1000;
     transition: background-color 0.3s ease;
 }
-.carrousel-arrow:hover{
-    background-color: #FFD700;
-    color: white;
-}
-
-.carrousel-arrow.left{
-    left: 10px;
-}
-
-.carrousel-arrow.right{
-    right: 10px;
-}
-
-@keyframes slide {
-    0% { transform: translateX(0); }
-    33% { transform: translateX(-100%); }
-    66% { transform: translateX(-200%); }
-    100% { transform: translateX(0); }
-}
 
 .background-video {
     position: fixed;
@@ -349,7 +330,7 @@ a {
 }
 
 a:hover {
-    color: #FFD700;
+    color: cornflowerblue;
     transform: scale(1.05);
 }
 
@@ -369,7 +350,7 @@ a:focus {
 }
 
 .monaco_link:hover {
-    background-color: #FFD700;
+    background-color: cornflowerblue;
     color: #333;
 }
 
