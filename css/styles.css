@@ -1,256 +1,421 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color:rgb(234, 243, 253);
-}
-
-header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: whitesmoke;
-    text-decoration: none;
-}
-nav ul li a:hover{
-    color: cornflowerblue;
-}
-
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #333;
-    color: #fff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form label {
-    margin: 5px 0;
-}
-
-form input, form textarea {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form button {
-    padding: 10px;
-    background: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background: #555;
-}
-
-#reviews {
-    background: #f9f9f9;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-.review {
-    border-bottom: 1px solid #ccc;
-    padding: 10px 0;
-}
-
-.review h3 {
-    margin: 0;
-}
-
-#review-form {
-    margin-top: 20px;
-}
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container {
-    padding: 2rem;
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    color: #333;
 }
 
-
-.japon-container {
-    margin-top: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.japon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-}
-
-#LOGO1{
-    height: 100px;
-}
-
-.Monaco_titles{
-    text-align:center;
-    color:crimson;
-    font-size: 2rem;
-    font-weight:bold;
-    padding: 20px;
-}
-
-.monaco_div{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-}
-
-.monaco_img{
-    width: 45%;
-    height: 300px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.monaco_span{
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
-    display: block;
-    width: 100%;
-}
-
-.monaco_prix-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 20px;
-}
-
-.monaco_prix{
-    padding: 0;
-    font-size: 1rem;
-    text-align: left;
-    margin: 30px;
-}
-
-.monaco_prix li{
-    list-style-type: none;
-    margin-bottom: 5px;
-}
-
-.monaco_link{
-    padding: 10px 15px;
-    background-color:lightcoral;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-.monaco_link:hover{
-    background-color: darkblue;
+header {
+    background: #222;
     color: white;
-}
-
-.image-container{
-    display: inline-block;
+    padding: 15px 0;
     text-align: center;
-    width:30%;
-    margin: 1%;
-    vertical-align: top;
-    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.redirection{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    display: block;
-    transition: transform 0.2s ease , width 0.2s ease, height 0.2s ease;
-    transform-origin: top;
-    margin: 0 auto;
-    border-radius: 10px;
-    z-index: 1;
-}
-.redirection:hover{
-    transform: scale(1.1);
-    border-radius: 25px;
-    z-index: 2;
+header .logo-container {
+    text-align: center;
 }
 
-.cuisine-container {
+#LOGO1 {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 20px 0;
+    justify-content: center;
+    margin-top: 15px;
 }
 
-.cuisine-item {
-    width: 30%;
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: cornflowerblue;
+}
+
+.hero {
+    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 80px 20px;
     text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    animation: fadeInUp 1.5s ease-out;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    animation: fadeInUp 2s ease-out;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    background: white;
     margin-bottom: 20px;
 }
 
-.cuisine-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
 }
 
-#back-to-top {
+section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.image-container {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover {
+    transform: scale(1.05);
+}
+
+.redirection {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.redirection:hover {
+    transform: scale(1.1);
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    display: block;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 12px 20px;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #FFD700;
+}
+
+#reviews {
+    padding: 40px 20px;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+.review {
+    margin-bottom: 25px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.review p {
+    font-size: 1rem;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.back-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    padding: 10px 15px;
-    background: #333;
+    background-color: #FFD700;
     color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    display: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    display: none; 
+    transition: opacity 0.3s ease-in-out;
 }
 
-#back-to-top:hover {
-    background: #555;
+.back-to-top:hover {
+    background-color: #222;
+    color: white;
+}
+
+.back-to-top:focus {
+    outline: none;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+body.scrolled .back-to-top {
+    display: block;
+}
+
+.carousel-container {
+    width: 70%;
+    max-width: 900px;
+    height: 400px;
+    overflow: hidden;
+    margin: 20px auto;
+    border-radius: 8px;
+    position: relative;
+    background-color: #f4f4f4;
+}
+
+.carousel {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.6s ease-in-out;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.carrousel-arrow{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+.carrousel-arrow:hover{
+    background-color: #FFD700;
+    color: white;
+}
+
+.carrousel-arrow.left{
+    left: 10px;
+}
+
+.carrousel-arrow.right{
+    right: 10px;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    33% { transform: translateX(-100%); }
+    66% { transform: translateX(-200%); }
+    100% { transform: translateX(0); }
+}
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.Monaco_titles {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#Logement {
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+
+.monaco_prix-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    color: #FFD700;
+    transform: scale(1.05);
+}
+
+a:focus {
+    outline: none; 
+}
+
+
+.monaco_link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1a73e8; 
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.monaco_link:hover {
+    background-color: #FFD700;
+    color: #333;
+}
+
+#ImagesSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.image-container {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    aspect-ratio: 16 / 9;
+}
+
+.image-container:hover {
+    transform: scale(1.05);
+}
+
+.responsive-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.image-container a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.image-container:hover .responsive-image {
+    transform: scale(1.1);
+}
+
+.monaco_img{
+    width: 70%;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 .moldova_imgmain{

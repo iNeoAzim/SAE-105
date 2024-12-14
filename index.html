@@ -1,68 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VPTOURS</title>
-    
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="icon" type="image/x-icon" href="../logo/logo.ico">
 </head>
+
 <body>
+
     <header>
-        <img id="LOGO1" src="../logo/logo.ico"> 
+        <div class="logo-container">
+            <img id="LOGO1" src="../logo/logo.ico" alt="Logo VPTOURS">
+        </div>
         <nav>
             <ul>
                 <li><a href="#home">Accueil</a></li>
-                <li><a href="#about">À propos de nous</a></li>
+                <li><a href="#about">À propos</a></li>
                 <li><a href="#destinations">Destinations</a></li>
                 <li><a href="#activities">Activités</a></li>
                 <li><a href="#tips">Recommandations</a></li>
-                <li><a href="#contact">Contactez-nous</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="home">
-            <h2>Explorez la Beauté de nos trois meilleures destinations pour 2025 !</h2>
-            <p>Découvrez des endroits merveilleux, des activitées excitantes, et une inoubliable expérience.</p>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Explorez la Beauté de nos meilleures destinations pour 2025 !</h2>
+                <p>Découvrez des endroits merveilleux, des activités excitantes, et une expérience inoubliable.</p>
+            </div>
         </section>
 
         <section id="about">
             <h2>À propos de nous</h2>
-            <p>Nous nous engageons à vous aider à découvrir les meilleures expériences de voyage.</p>
+            <p>Nous nous engageons à vous offrir les meilleures expériences de voyage et à rendre chaque moment inoubliable.</p>
         </section>
 
         <section id="destinations">
             <h2>Destinations populaires</h2>
+            <div id="ImagesSection">
                 <div class="image-container">
                     <a href="../html/japon.html">
-                        <img src="../country/japonpics/japon1.png" class="redirection">
+                        <img src="../country/japonpics/japon1.png" alt="Japon" class="responsive-image">
                     </a>
                 </div>
                 <div class="image-container">
                     <a href="../html/moldavie.html">
-                        <img src="../country/moldovapics/moldaviepaysage1.png" class="redirection">
+                        <img src="../country/moldovapics/moldaviepaysage1.png" alt="Moldavie" class="responsive-image">
                     </a>
                 </div>
                 <div class="image-container">
                     <a href="../html/monte_carlo.html">
-                        <img src="../country/monte_carlopics/monacopaysage01.png" class="redirection">
+                        <img src="../country/monte_carlopics/monacopaysage01.png" alt="Monte Carlo" class="responsive-image">
                     </a>
                 </div>
+            </div>
         </section>
 
         <section id="activities">
             <h2>Activités</h2>
-            <p>Découvrez les différentes activités que vous pouvez pratiquer pendant votre visite.</p>
+            <p>Découvrez une variété d'activités disponibles lors de votre voyage. De l'aventure aux moments de détente, il y en a pour tous les goûts.</p>
         </section>
 
         <section id="tips">
             <h2>Recommandations</h2>
-            <p>Des conseils utiles pour profiter au mieux de votre voyage.</p>
+            <p>Voici quelques conseils pour profiter pleinement de votre séjour.</p>
         </section>
 
         <section id="contact">
@@ -81,16 +88,18 @@
             </form>
         </section>
     </main>
+
     <section id="reviews">
         <h2>Avis clients</h2>
         <div class="review">
             <h3>John Doe</h3>
-            <p>"J'ai passé un moment incroyable à explorer la ville ! Les attractions étaient à couper le souffle et les habitants étaient sympathiques."</p>
+            <p>"Une expérience incroyable à explorer la ville ! Les attractions étaient fascinantes et les habitants très accueillants."</p>
         </div>
         <div class="review">
             <h3>Jane Smith</h3>
-            <p>"Une expérience merveilleuse ! Les visites guidées étaient instructives et amusantes. Je recommande vivement !"</p>
+            <p>"Un séjour merveilleux ! Les visites guidées étaient très intéressantes et amusantes. Je recommande vivement ce voyage !"</p>
         </div>
+
         <form id="review-form">
             <h3>Laissez un avis</h3>
             <label for="reviewer-name">Nom :</label>
@@ -102,8 +111,14 @@
             <button type="submit">Soumettre un avis</button>
         </form>
     </section>
+
     <footer>
-        <p>&copy; 2024 VPTOURS SARL. All rights reserved.</p>
+        <p>&copy; 2024 VPTOURS SARL. Tous droits réservés.</p>
     </footer>
+    <a href="#top" class="back-to-top" title="Retour en haut">&#8593;</a>
+
+    <script src="./java/script.js"></script>
+
 </body>
+
 </html>
