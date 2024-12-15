@@ -1,6 +1,6 @@
 # University Project: Tourist Websites
 
-**Team Members:** Sebastien, Imene, Crinu
+**Team Members:** Sebastien, Imene, Crinu.
 
 ## Project Overview
 
