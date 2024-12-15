@@ -13,15 +13,6 @@ body {
     color: #333;
 }
 
-
-/*body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    line-height: 1.6;
-    color: #333;
-}
-*/
-
 header {
     background: #333;
     padding: 15px 0;
@@ -418,7 +409,7 @@ a:focus {
 
 .moldova_titles{
   text-align: center;
-    font-size: 7rem;
+    font-size: 5rem;
     color: rgb(255, 255, 255);
     animation: fadeIn 2s ease-in-out;
     border-radius: 10;
