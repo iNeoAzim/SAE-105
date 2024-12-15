@@ -23,11 +23,14 @@ body {
 */
 
 header {
-    background: #222;
-    color: white;
+    background: #333;
     padding: 15px 0;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.drapeau_monaco{
+    background: url('/country/monte_carlopics/drapeau_monaco.png') center ;
+    background-size: 0px;
 }
 
 header .logo-container {
