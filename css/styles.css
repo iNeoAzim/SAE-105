@@ -412,6 +412,7 @@ a:focus {
     border-bottom: 10px solid rgba(30, 71, 147, 0.701);
     margin-bottom: 50px;
 }
+
 .moldova_prix , .monaco_prix-container, .Japon_prix-container {
     padding: 10px;
     font-size: 1.1rem;
@@ -424,6 +425,28 @@ a:focus {
     line-height: 1.5;
 }
 
+#luxury-nightlife{
+    border: 2px solid #000000;
+    background-color: #1a1a1a;
+    color: #fff; 
+    padding: 20px; 
+    border-radius: 10px;
+}
+
+
+.luxury-nightlife-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.luxury-nightlife-item{
+    text-align: center;
+}
+
+#VieNocturne{
+    text-align: center; 
+    color: #ffd700;
+}
 /* ----------------------------------------- MOLDOVA CSS ----------------------------------------- */
 
 .Japon_img{
