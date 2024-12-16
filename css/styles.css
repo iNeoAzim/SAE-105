@@ -14,14 +14,9 @@ body {
 }
 
 header {
-    background: #333;
+    background-color: rgba(0,0,0,0.6);
     padding: 15px 0;
     text-align: center;
-}
-
-.drapeau_monaco{
-    background: url('/country/monte_carlopics/drapeau_monaco.png') center ;
-    background-size: 0px;
 }
 
 header .logo-container {
@@ -179,7 +174,7 @@ form button:hover {
 
 footer {
     text-align: center;
-    background: #222;
+    background-color: rgba(0,0,0,0.6);
     color: white;
     padding: 15px;
     margin-top: 50px;
@@ -241,13 +236,6 @@ body.scrolled .back-to-top {
     height: 100%;
     object-fit: cover;
     z-index: -1;
-}
-
-.Monaco_titles, .Japon_titles {
-    text-align: center;
-    font-size: 3rem;
-    color: white;
-    animation: fadeIn 2s ease-in-out;
 }
 
 @keyframes fadeIn {
@@ -356,7 +344,7 @@ a:focus {
     margin-bottom: 250px;}
     
 
-.Moldova_titles{
+.Moldova_titles,{
     text-align:center;
     color:rgb(20, 50, 220);
     font-size: 2rem;
@@ -407,7 +395,7 @@ a:focus {
     border-radius: 10px;
 }
 
-.moldova_titles{
+.moldova_titles, .Monaco_titles , .Japon_titles, .contact_titles{
   text-align: center;
     font-size: 5rem;
     color: rgb(255, 255, 255);
@@ -500,4 +488,10 @@ a:focus {
 .contact-img {
     border-radius: 100px;
     width: 30%;
+}
+
+iframe{
+    width:500px;
+    height:300px;
+    margin-top: 20px;
 }
