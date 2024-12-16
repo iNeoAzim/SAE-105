@@ -483,3 +483,9 @@ a:focus {
     padding: 20px;
     border-radius: 50px;
 }
+
+.conctact-item {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
